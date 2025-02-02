@@ -11,7 +11,7 @@ export class LoginComponent {
 
   isLoginActive = false;
 
-  toggleLogin() {
-    this.isLoginActive = !this.isLoginActive;
+  displayLogin(b: boolean) {
+    this.isLoginActive = b;
   }
 }
